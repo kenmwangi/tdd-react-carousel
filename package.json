@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . && prettier --list-different .",
-    "format": "eslint --fix . && prettier --loglevel warn --write ."
+    "format": "eslint --fix . && prettier --loglevel warn --write .",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^18.2.0",
